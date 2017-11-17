@@ -1,0 +1,25 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="splashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@drawable/splaash</item>
+</style>
+
+
+    <style name="MyToast">
+        <item name="android:textColor">@color/text_color_btn</item>
+
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:strokeWidth">2</item>   API 21+
+        <item name="android:strokeColor">@color/BACKGROUND</item>   API 21+
+        <item name="android:radius">10dp</item>  radius for corners of the toast shape
+        <item name="android:alpha">250</item>   value between 0-255 where 255 is full solid
+        <item name="android:icon">@mipmap/iconclone</item>  drawable id of the icon. R.drawable.xx
+    </style>
+
+</resources>

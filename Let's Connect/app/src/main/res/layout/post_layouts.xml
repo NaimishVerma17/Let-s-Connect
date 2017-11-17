@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+
+              android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/upload_tweets_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profilePictureInPost"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:src="@drawable/person"
+                app:civ_border_color="#FFF"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/userNameInPost"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/postTextInPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/postImageInPost"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/heart"/>
+    </LinearLayout>
+</LinearLayout>

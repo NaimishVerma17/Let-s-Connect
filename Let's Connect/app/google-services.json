@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "612891944038",
+    "firebase_url": "https://socialmediaapp-46821.firebaseio.com",
+    "project_id": "socialmediaapp-46821",
+    "storage_bucket": "socialmediaapp-46821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612891944038:android:999ce26908791e27",
+        "android_client_info": {
+          "package_name": "com.example.itakg.mysocialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612891944038-i7n6b3p7na06osi376ijj7ji4p53dfpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itakg.mysocialmediaapp",
+            "certificate_hash": "aa7bfbcfbdf167032fb09e89264f5382c2227466"
+          }
+        },
+        {
+          "client_id": "612891944038-74frouodbh4m5ni0h4qiesi1tlh3lllj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiAdJKO-IuKWQWLxSVsXMyY3TntfexmcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612891944038-74frouodbh4m5ni0h4qiesi1tlh3lllj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612891944038:android:5cd21ab041209daa",
+        "android_client_info": {
+          "package_name": "com.example.itakg.twitterclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612891944038-1i77jfqfevo4eqskeg2ffdg2v2hm3vm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itakg.twitterclone",
+            "certificate_hash": "aa7bfbcfbdf167032fb09e89264f5382c2227466"
+          }
+        },
+        {
+          "client_id": "612891944038-74frouodbh4m5ni0h4qiesi1tlh3lllj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiAdJKO-IuKWQWLxSVsXMyY3TntfexmcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612891944038-74frouodbh4m5ni0h4qiesi1tlh3lllj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

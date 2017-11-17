@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Twitter Clone</string>
+    <string name="email">E-MAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="ph.no.">PHONE NO.</string>
+    <string name="name">NAME</string>
+    <string name="submit">SUBMIT</string>
+    <string name="upload_image">UPLOAD  IMAGE</string>
+    <string name="login">LOGIN</string>
+    <string name="uploadMessage">Hey what are you thinking!!</string>
+    <string name="userName">User Name</string>
+    <string name="date">Date</string>
+    <string name="attach">ATTACH FILE</string>
+    <string name="welcomeText">LOGIN</string>
+    <string name="register">REGISTER HERE</string>
+    <string name="profilePic">PROFILE PICTURE</string>
+    <string name="camera">TAKE PICTURE</string>
+    <string name="save">UPLOAD</string>
+    <string name="community">Our Community</string>
+    <string name="signout">Sign out</string>
+    <string name="thanks">THANK YOU!!</string>
+    <string name="aboutTitle">About</string>
+    <string name="location">Chech your location</string>
+    <string name="dummyText">Hey whats going on</string>
+    <string name="changeProfilePic">Change Profile Picture</string>
+    <string name="icon">Icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_location">Map</string>
+    <string name="about">This is a simple social media app. This app allows the
+        user to login with his email and password. This app is public, means it does not
+    allows you to connect to a particular person instead you will be able to see the post of all the
+     users connected through this app. This app also provides you a map feature through which a user
+    can access to his present location.</string>
+    <string name="default_notification_channel_id">123</string>
+
+</resources>

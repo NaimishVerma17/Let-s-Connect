@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.itakg.twitterclone">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:icon="@mipmap/iconclone"
+        android:label="Let's Connect"
+        android:roundIcon="@mipmap/iconclone"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon_app" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/BACKGROUND" />
+        <activity android:name=".Activities.Splaash"
+                android:theme="@style/splashScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ImageUpload">
+        </activity>
+        <activity android:name=".Activities.RegisterUser">
+        </activity>
+        <activity android:name=".Activities.NewsFeeds">
+        </activity>
+        <activity android:name=".Activities.AddPost">
+        </activity>
+        <activity android:name=".Activities.Community">
+        </activity>
+        <activity android:name=".Activities.LoginActivity">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <activity
+            android:name=".Activities.Location"
+            android:label="@string/title_activity_location">
+        </activity>
+
+    </application>
+
+</manifest>
