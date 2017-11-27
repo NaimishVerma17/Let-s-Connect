@@ -30,6 +30,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.messaging.FirebaseMessaging;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
@@ -108,6 +109,7 @@ public class NewsFeeds extends AppCompatActivity implements MyAdapter.LikeClicke
                 break;
             case R.id.location:
                 intent = new Intent(NewsFeeds.this, Location.class);
+
                 startActivity(intent);
                 break;
             case R.id.about:

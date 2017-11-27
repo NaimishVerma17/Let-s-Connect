@@ -26,7 +26,7 @@
     <string name="icon">Icon</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_location">Map</string>
-    <string name="about">This is a simple social media app. This app allows the
+    <string name="about">This is a simple social media app in beta version. This app allows the
         user to login with his email and password. This app is public, means it does not
     allows you to connect to a particular person instead you will be able to see the post of all the
      users connected through this app. This app also provides you a map feature through which a user
